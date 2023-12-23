@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    background-color: #F7F7F2;
+    margin: 0;
+    padding: 0;
+}
+
+.navLinks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-top: 1.5rem;
+    background-color: #F7F7F2;
+    color: black;
+}
+
+.navOptions1 a {
+    padding: 1rem;
+    font-size: small;
+    font-weight: 500;
+    color: black;
+}
+
+.navOptions2 a {
+    padding: 1rem;
+    font-size: small;
+    font-weight: 500;
+    color: black;
+}
+
+.navLinks a::after {
+    content: "";
+    position: absolute; 
+    display: none;
+    left: 0;
+    width: 85%;
+    height: 1px;
+    background-color: black;
+    animation: underline 0.25s; 
+}
+
+.navLinks a:hover::after {
+    display: block;
+}
+
+@keyframes underline {
+    0% {
+        width: 0%;
+    }
+
+    15% {
+        width: 15%;
+    }
+
+    25% {
+        width: 25%;
+    }
+
+    35% {
+        width: 35%;
+    }
+
+    50% {
+        width: 50%;
+    }
+
+    65% {
+        width: 65%;
+    }
+
+    75% {
+        width: 75%;
+    }
+
+    90% {
+        width: 78%;
+    }
+
+    100% {
+        width: 80%;
+    }
+
+}
+
+.generalContainer {
+    box-sizing: border-box;
+}
+
+.containerN1 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    float: left;
+    width: 75%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.contentContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25rem;
+    gap: 10rem;
+}
+
+.mainContent1 {
+    font-weight: 500;
+}
+
+.mainContent2 {
+    font-weight: 900;
+    font-size: 9rem;
+}
+
+.mainContent2 h1{
+    margin: 0
+}
+
+.aboutmeContent {
+    margin-top: 15rem;
+}
+
+.containerN2 {
+    background-color: #0F0F0F;
+    float: right;
+    width: 25%;
+    height: 100vh;
+    align-items: center;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.containerImage {
+    width: 100%;
+    height: 63vh;
+    padding: 0rem 1.2rem 0rem 1.2rem;
+    overflow: hidden;
+    margin-bottom: 5rem;
+}
+
+.mainContentImg1, .mainContentImg2, .mainContentImg3 {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}

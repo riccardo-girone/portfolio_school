@@ -16,7 +16,7 @@ body {
     padding: 0;
 }
 
-.mainContent {
+.hero {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,8 +24,8 @@ body {
 }
 
 .principalImg {
-    width: 63em;
-    height: 38em;
+    width: 110em;
+    height: 60.5em;
     position: relative;
 }
 
@@ -36,12 +36,50 @@ body {
 }
 
 .mainTitle {
+    margin: 0;
     color: white;
     font-weight: 900;
-    font-size: 4rem;
-    width: 100%;
-    text-align: center;
+    font-size: 8rem;
     position: absolute;
     top: 50%;
     transform: translate(0, -50%);
+}
+
+.centerText {
+    text-align: center;
+    width: 100%;
+}
+
+.leftText {
+    left: 0;
+    color: #8E8E8E;
+}
+
+.rightText {
+    right: 0;
+    color: #8E8E8E;
+}
+
+.secondContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 120rem;
+}
+
+.piccolaIntroduzione h2{
+    color: white;
+    font-size: medium;
+    font-weight: 500;
+}
+
+.informationLine {
+
+}
+
+.prova h2{
+    color: white;
+    font-size: medium;
+    font-weight: 500;
 }

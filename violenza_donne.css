@@ -61,8 +61,8 @@ body {
 }
 
 .piccolaIntroduzione {
-    margin: 0 35rem;
-    margin-bottom: 10rem;
+    margin: 0 30rem;
+    margin-bottom: 7rem;
 
 }
 
@@ -74,12 +74,23 @@ body {
     text-align: center;
 }
 
-.informationLine {
+.lineInformation {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 10rem;
+}
 
+.lineInformation div {
+    width: 20rem;
+    text-align: center;
 }
 
 .prova h2{
     color: white;
     font-size: medium;
     font-weight: 500;
+    margin-top: 15rem;
 }

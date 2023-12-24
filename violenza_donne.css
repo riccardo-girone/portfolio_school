@@ -88,9 +88,50 @@ body {
     text-align: center;
 }
 
-.prova h2{
-    color: white;
-    font-size: medium;
-    font-weight: 500;
+.projectExplenetion {
     margin-top: 15rem;
+    margin-left: 13rem;
+    margin-right: 13rem;
+}
+
+.section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20rem;
+}
+
+.sectionOne, .sectionTwo, .sectionThre div{
+    font-family: 'Advent Pro', sans-serif;
+    color: white;
+    font-weight: 200;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.sectionOne{
+    margin-bottom: 20rem;
+    gap: 10rem;
+}
+
+.sectionTwo{
+    margin-bottom: 20rem;
+    gap: 10rem;
+}
+
+.sectionThre{
+    margin-bottom: 20rem;
+    gap: 10rem;
+}
+
+.ExplenetionImg1 {  
+    height: 35rem;
+    width: 200rem;
+    background-color: rgb(104, 99, 99);
+}
+
+.ExplenetionImg2 {  
+    height: 35rem;
+    width: 50rem;
+    background-color: rgb(104, 99, 99);
 }

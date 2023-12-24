@@ -40,22 +40,22 @@ body {
     color: black;
 }
 
-.navLinks a::after {
+.navOptions a::after {
     content: "";
     position: absolute; 
     display: none;
     left: 0;
-    width: 85%;
+    width: 80%;
     height: 1px;
     background-color: black;
-    animation: underline 0.25s; 
+    animation: under 0.15s; 
 }
 
-.navLinks a:hover::after {
+.navOptions a:hover::after {
     display: block;
 }
 
-@keyframes underline {
+@keyframes under {
     0% {
         width: 0%;
     }
@@ -76,7 +76,7 @@ body {
         width: 50%;
     }
 
-    65% {
+    50% {
         width: 65%;
     }
 
@@ -115,17 +115,18 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 25rem;
-    gap: 10rem;
+    margin-top: 13rem;
+    gap: 8rem;
 }
 
-.mainContent1 {
+.mainContent1 h3{
+    font-size: medium;
     font-weight: 500;
 }
 
 .mainContent2 {
     font-weight: 900;
-    font-size: 9rem;
+    font-size: 5rem;
 }
 
 .mainContent2 h1{
@@ -133,7 +134,16 @@ body {
 }
 
 .aboutmeContent {
-    margin-top: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 7rem;
+}
+
+.aboutmeContent h4{
+    font-size: small;
+    font-weight: 500;
 }
 
 .containerN2 {
@@ -148,7 +158,7 @@ body {
 
 .containerImage {
     width: 100%;
-    height: 63vh;
+    height: 442px;
     padding: 0rem 1.2rem 0rem 1.2rem;
     overflow: hidden;
     margin-bottom: 5rem;
@@ -160,4 +170,7 @@ body {
     object-fit: cover;
 }
 
-/* commit di prova */
+hr {
+    background-color: red;
+    z-index: 1000;
+}

@@ -105,33 +105,44 @@ body {
     font-family: 'Advent Pro', sans-serif;
     color: white;
     font-weight: 200;
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: center;
 }
 
 .sectionOne{
     margin-bottom: 20rem;
-    gap: 10rem;
+    justify-content: center;
 }
 
 .sectionTwo{
     margin-bottom: 20rem;
-    gap: 10rem;
+    justify-content: space-between;
 }
+
+.ExplenetionImg2 {
+    overflow: hidden;
+}
+
+.text2 {
+    max-width: 30rem;
+}
+
 
 .sectionThre{
     margin-bottom: 20rem;
-    gap: 10rem;
+    justify-content: space-between;
 }
 
-.ExplenetionImg1 {  
-    height: 35rem;
-    width: 200rem;
-    background-color: rgb(104, 99, 99);
+.ExplenetionImg3 {
+    overflow: hidden;
 }
 
-.ExplenetionImg2 {  
-    height: 35rem;
-    width: 50rem;
-    background-color: rgb(104, 99, 99);
+.text3 {
+    max-width: 30rem;
+}
+
+.Img1, .Img2, .Img3 {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }

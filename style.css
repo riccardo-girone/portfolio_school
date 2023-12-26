@@ -164,7 +164,7 @@ body {
     margin-bottom: 5rem;
 }
 
-.mainContentImg1, .mainContentImg2, .mainContentImg3 {
+.mainContentImg1, .mainContentImg2, .mainContentImg3, .mainContentImg4{
     height: 100%;
     width: 100%;
     object-fit: cover;

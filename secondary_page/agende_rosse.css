@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@200;300;400&family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    background-color: #0F0F0F;
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.principalImg {
+    width: 110em;
+    height: 60.5em;
+    position: relative;
+}
+
+.mainImg {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(60%);
+}
+
+.mainTitle {
+    margin: 0;
+    color: white;
+    font-weight: 900;
+    font-size: 8rem;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.centerText {
+    text-align: center;
+    width: 100%;
+}
+
+.leftText {
+    left: 0;
+    color: #8E8E8E;
+}
+
+.rightText {
+    right: 0;
+    color: #8E8E8E;
+}
+
+.str {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 400;
+    top: -5rem;
+    margin-bottom: 2rem;
+}
+
+.piccolaIntroduzione {
+    margin: 0 30rem;
+    margin-bottom: 7rem;
+
+}
+
+.piccolaIntroduzione div{
+    font-family: 'Advent Pro', sans-serif;
+    color: white;
+    font-weight: 200;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.lineInformation {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 10rem;
+}
+
+.lineInformation div {
+    width: 20rem;
+    text-align: center;
+}
+
+.projectExplenetion {
+    margin-top: 15rem;
+    margin-left: 13rem;
+    margin-right: 13rem;
+}
+
+.section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20rem;
+}
+
+.sectionTwo, .sectionThre, .sectionFour div{
+    font-family: 'Advent Pro', sans-serif;
+    color: white;
+    font-weight: 200;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.sectionOne{
+    margin-bottom: 20rem;
+    justify-content: center;
+}
+
+.ExplenetionImg1 {
+    overflow: hidden;
+    width: 120rem;
+    height: 50rem;
+}
+
+.sectionTwo{
+    margin-bottom: 20rem;
+    justify-content: space-between;
+}
+
+.ExplenetionImg2 {
+    overflow: hidden;
+    width: 90rem;
+    height: 40rem;
+}
+
+.text2 {
+    max-width: 30rem;
+}
+
+.sectionThre{
+    margin-bottom: 20rem;
+    justify-content: space-between;
+}
+
+.text3 {
+    max-width: 40rem;
+}
+
+.sectionFour{
+    margin-bottom: 20rem;
+    justify-content: space-between;
+}
+
+.ExplenetionImg4 {
+    overflow: hidden;
+    width: 90rem;
+    height: 40rem;
+}
+
+.text4 {
+    max-width: 30rem;
+}
+
+.img1 {
+    width: 100%;
+    height: 100% ;
+    object-fit: cover;
+}

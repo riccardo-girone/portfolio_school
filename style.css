@@ -119,14 +119,14 @@ body {
     gap: 11rem;
 }
 
-.mainContent1 h3{
-    font-size: medium;
+.mainContent1 {
+    font-size: 1rem;
     font-weight: 500;
 }
 
 .mainContent2 {
-    font-weight: 900;
-    font-size: 9rem;
+    font-weight: 800;
+    font-size: 18rem;
 }
 
 .mainContent2 h1{
@@ -138,7 +138,6 @@ body {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin-top: 7rem;
 }
 
 .aboutmeContent h4{
@@ -177,10 +176,26 @@ body {
     color: white;
     margin-bottom: 5rem;
     font-weight: 700;
-    font-size: 1.5rem;
-    padding: 0 1.2rem 0 1.2rem;
+    font-size: 2rem;
+    padding: 0.5rem 1.2rem 0 1.2rem;
 }
 
-.titoloImg h2{
+.footerLink {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15rem;
+    gap: 2rem;
+    color: #0F0F0F;
+}
+
+.footerLink div {
+    color: white;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+hr {
+    width: 100%;
     margin: 0;
 }

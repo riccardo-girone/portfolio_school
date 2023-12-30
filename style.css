@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@200;300;400&family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
 * {
     box-sizing: border-box;
     text-decoration: none;
@@ -119,9 +118,10 @@ body {
     gap: 11rem;
 }
 
-.mainContent1 {
-    font-size: 1rem;
-    font-weight: 500;
+.mainContent1 div{
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
 }
 
 .mainContent2 {
@@ -140,9 +140,19 @@ body {
     text-align: center;
 }
 
-.aboutmeContent h4{
-    font-size: small;
-    font-weight: 500;
+.aboutMe {
+    margin-bottom: 1rem;
+}
+
+.aboutMe div{
+    font-weight: 800;
+    font-size: 4rem;
+}
+
+.aboutMeEx div{
+    font-family: 'Advent Pro', sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
 }
 
 .containerN2 {

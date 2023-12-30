@@ -23,6 +23,14 @@ body {
     height: 100vh;
 }
 
+.exit {
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    top: 4rem;
+    right: 4rem;
+}
+
 .principalImg {
     width: 110rem;
     height: 60.5rem;

@@ -39,60 +39,6 @@ body {
     color: black;
 }
 
-.navOptions a::after {
-    content: "";
-    position: absolute; 
-    display: none;
-    left: 0;
-    width: 80%;
-    height: 1px;
-    background-color: black;
-    animation: under 0.15s; 
-}
-
-.navOptions a:hover::after {
-    display: block;
-}
-
-@keyframes under {
-    0% {
-        width: 0%;
-    }
-
-    15% {
-        width: 15%;
-    }
-
-    25% {
-        width: 25%;
-    }
-
-    35% {
-        width: 35%;
-    }
-
-    50% {
-        width: 50%;
-    }
-
-    50% {
-        width: 65%;
-    }
-
-    75% {
-        width: 75%;
-    }
-
-    90% {
-        width: 78%;
-    }
-
-    100% {
-        width: 80%;
-    }
-
-}
-
 .generalContainer {
     box-sizing: border-box;
 }
@@ -182,7 +128,13 @@ body {
     object-fit: cover;
 }
 
-.titoloImg {
+.informationImg {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titoloImg, .annoImg {
     color: white;
     margin-bottom: 5rem;
     font-weight: 700;

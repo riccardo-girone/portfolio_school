@@ -134,13 +134,12 @@ body {
 }
 
 .ExplenetionImg2 {
-    overflow: hidden;
-    width: 90rem;
-    height: 40rem;
+    margin-left: 10rem;
 }
 
 .text2 {
-    max-width: 30rem;
+    margin-right: 10rem;
+    max-width: 70rem;
 }
 
 .sectionThre{

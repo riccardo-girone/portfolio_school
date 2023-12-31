@@ -130,18 +130,9 @@ body {
 
 .sectionTwo{
     margin-bottom: 20rem;
-    justify-content: space-between;
+    justify-content: center;
 }
 
-.ExplenetionImg2 {
-    overflow: hidden;
-    width: 90rem;
-    height: 40rem;
-}
-
-.text2 {
-    max-width: 30rem;
-}
 
 .sectionThre{
     margin-bottom: 20rem;

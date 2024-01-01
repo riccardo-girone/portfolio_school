@@ -60,24 +60,21 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 25rem;
+    margin-top: clamp(14rem, 17vw, 35rem);
     gap: 11rem;
 }
 
 .mainContent1 div{
     font-family: 'Advent Pro', sans-serif;
-    font-size: 2rem;
+    font-size: clamp(1.5rem, 1.3vw, 4rem);
     font-weight: 400;
 }
 
 .mainContent2 {
     font-weight: 800;
-    font-size: 18rem;
+    font-size: clamp(1rem, 11vw, 18rem);
 }
 
-.mainContent2 h1{
-    margin: 0
-}
 
 .aboutmeContent {
     display: flex;
@@ -118,7 +115,7 @@ body {
 .containerImage {
     padding: 0rem 1.2rem 0rem 1.2rem;
     width: 100%;
-    height: 51rem;
+    height: clamp(15rem, 30vw, 51rem);
     overflow: hidden;
 }
 
@@ -138,7 +135,7 @@ body {
     color: white;
     margin-bottom: 5rem;
     font-weight: 700;
-    font-size: 2rem;
+    font-size: clamp(0.5rem, 1.3vw, 2rem);
     padding: 0.5rem 1.2rem 0 1.2rem;
 }
 

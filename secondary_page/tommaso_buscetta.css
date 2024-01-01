@@ -32,8 +32,8 @@ body {
 }
 
 .principalImg {
-    width: 110em;
-    height: 60.5em;
+    width: clamp(40rem, 70vw, 120rem);
+    height: clamp(20rem, 40vw, 60.5rem);
     position: relative;
 }
 
@@ -48,7 +48,7 @@ body {
     margin: 0;
     color: white;
     font-weight: 900;
-    font-size: 8rem;
+    font-size: clamp(2rem, 5vw, 8rem);
     position: absolute;
     top: 50%;
     transform: translate(0, -50%);
@@ -73,9 +73,9 @@ body {
     position: relative;
     text-align: center;
     color: white;
-    font-size: 1.5rem;
+    font-size: clamp(1rem, 1vw, 2.5rem);
     font-weight: 400;
-    top: -5rem;
+    top: -4rem;
     margin-bottom: 2rem;
 }
 

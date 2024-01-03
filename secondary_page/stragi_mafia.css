@@ -80,7 +80,7 @@ body {
 }
 
 .piccolaIntroduzione {
-    margin: 0 30rem;
+    margin: 0 clamp(20rem, 3.5vw, 30rem);
     margin-bottom: 7rem;
 
 }
@@ -89,7 +89,7 @@ body {
     font-family: 'Advent Pro', sans-serif;
     color: white;
     font-weight: 200;
-    font-size: 3rem;
+    font-size: clamp(1.5rem, 2vw, 3rem);
     text-align: center;
 }
 
@@ -105,12 +105,13 @@ body {
 .lineInformation div {
     width: 20rem;
     text-align: center;
+    font-size: clamp(0.5rem, 1.5vh, 1.5rem);
 }
 
 .projectExplenetion {
     margin-top: 15rem;
-    margin-left: 13rem;
-    margin-right: 13rem;
+    margin-left: clamp(5rem, 15vh, 13rem);
+    margin-right: clamp(5rem, 15vh, 13rem);
 }
 
 .section {
@@ -118,13 +119,13 @@ body {
     flex-direction: row;
     align-items: center;
     margin-bottom: 20rem;
+    font-size: clamp(0.5rem, 2vh, 2.5rem);
 }
 
 .sectionTwo, .sectionThre, .sectionFour div{
     font-family: 'Advent Pro', sans-serif;
     color: white;
     font-weight: 200;
-    font-size: 2rem;
     text-align: center;
 }
 
@@ -146,12 +147,12 @@ body {
 
 .ExplenetionImg2 {
     overflow: hidden;
-    width: 90rem;
-    height: 40rem;
+    height: clamp(20rem, 50vh, 90rem);
 }
 
 .text2 {
-    max-width: 30rem;
+    max-width: clamp(10rem, 50vh, 30rem);
+    margin-left: 5rem;
 }
 
 .sectionThre{
@@ -159,9 +160,16 @@ body {
     justify-content: space-between;
 }
 
-.text3 {
-    max-width: 40rem;
+.ExplenetionImg3 {
+    overflow: hidden;
+    height: clamp(20rem, 50vh, 48rem);
 }
+
+.text3 {
+    max-width: clamp(20rem, 50vh, 40rem);
+    margin-right: 5rem;
+}
+
 
 .sectionFour{
     margin-bottom: 20rem;
@@ -170,16 +178,10 @@ body {
 
 .ExplenetionImg4 {
     overflow: hidden;
-    width: 90rem;
-    height: 40rem;
+    height: clamp(10rem, 55vh, 30rem);
+    margin-right: 5rem;
 }
 
 .text4 {
-    max-width: 30rem;
-}
-
-.img1 {
-    width: 100%;
-    height: 100% ;
-    object-fit: cover;
+    max-width: clamp(10rem, 50vh, 30rem);
 }

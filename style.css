@@ -60,7 +60,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: clamp(1rem, 15vw, 35rem);
+    margin-top: clamp(1rem, 10vw, 35rem);
     gap: 11rem;
 }
 

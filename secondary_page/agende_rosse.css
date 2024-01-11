@@ -166,6 +166,7 @@ body {
 
 .text3 {
     max-width: 40rem;
+    margin-right: 5rem;
 }
 
 .sectionFour{
@@ -180,7 +181,7 @@ body {
 
 .text4 {
     max-width: clamp(20rem, 50vh, 40rem);
-    margin-right: 5rem;
+    margin-left: 5rem;
 }
 
 .Img1, .Img2, .Img3 {

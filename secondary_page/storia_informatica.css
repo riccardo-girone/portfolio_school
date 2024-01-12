@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@200;300;400&family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    background-color: #0F0F0F;
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.exit {
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    top: 4rem;
+    right: 4rem;
+}
+
+.principalImg {
+    width: clamp(40rem, 70vw, 120rem);
+    height: clamp(20rem, 40vw, 60.5rem);
+    position: relative;
+}
+
+.mainImg {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(60%);
+}
+
+.mainTitle {
+    margin: 0;
+    color: white;
+    font-weight: 900;
+    font-size: clamp(2rem, 5vw, 8rem);
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.centerText {
+    text-align: center;
+    width: 100%;
+}
+
+.leftText {
+    left: 0;
+    color: #8E8E8E;
+}
+
+.rightText {
+    right: 0;
+    color: #8E8E8E;
+}
+
+.str {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: clamp(1rem, 1vw, 2.5rem);
+    font-weight: 400;
+    top: -4rem;
+    margin-bottom: 2rem;
+}
+
+.piccolaIntroduzione {
+    margin: 0 clamp(20rem, 3.5vw, 30rem);
+    margin-bottom: 7rem;
+
+}
+
+.piccolaIntroduzione div{
+    font-family: 'Advent Pro', sans-serif;
+    color: white;
+    font-weight: 200;
+    font-size: clamp(1.5rem, 2vw, 3rem);
+    text-align: center;
+}
+
+.lineInformation {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 10rem;
+}
+
+.lineInformation div {
+    width: 20rem;
+    text-align: center;
+    font-size: clamp(0.5rem, 1.5vh, 1.5rem);
+}
+
+.projectExplenetion {
+    margin-top: clamp(5rem, 15vh, 15rem);
+    margin-left: clamp(5rem, 15vh, 13rem);
+    margin-right: clamp(5rem, 15vh, 13rem);
+}
+
+.section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20rem;
+    font-size: clamp(0.5rem, 2vh, 2.5rem);
+}
+
+.sectionTwo, .sectionThre, .sectionFour div{
+    font-family: 'Advent Pro', sans-serif;
+    color: white;
+    font-weight: 200;
+    text-align: center;
+}
+
+.sectionOne{
+    margin-bottom: 20rem;
+    justify-content: center;
+}
+
+.Img1, .Img2, .Img3 {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}

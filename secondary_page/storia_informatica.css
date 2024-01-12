@@ -122,20 +122,7 @@ body {
     font-size: clamp(0.5rem, 2vh, 2.5rem);
 }
 
-.sectionTwo, .sectionThre, .sectionFour div{
-    font-family: 'Advent Pro', sans-serif;
-    color: white;
-    font-weight: 200;
-    text-align: center;
-}
-
 .sectionOne{
     margin-bottom: 20rem;
     justify-content: center;
-}
-
-.Img1, .Img2, .Img3 {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
 }

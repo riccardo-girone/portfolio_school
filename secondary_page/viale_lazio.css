@@ -139,7 +139,7 @@ body {
 
 .text2 {
     max-width: clamp(10rem, 50vh, 30rem);
-    scroll-margin-right: 5rem;
+    margin-left: 5rem;
 }
 
 .sectionThre{
@@ -149,7 +149,7 @@ body {
 
 .text3 {
     max-width: clamp(10rem, 50vh, 60rem);
-    margin-left: 5rem;
+    margin-right: 5rem;
 }
 
 .sectionFour{

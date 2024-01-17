@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@200;300;400&family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    background-color: #0F0F0F;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.email {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: 800;
+    font-size: 4rem;
+}

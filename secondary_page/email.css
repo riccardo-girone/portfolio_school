@@ -17,5 +17,5 @@ body {
     font-family: 'Montserrat', sans-serif;
     color: white;
     font-weight: 800;
-    font-size: 4rem;
+    font-size: clamp(1.5rem, 3vw, 4rem);;
 }

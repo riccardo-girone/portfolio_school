@@ -145,7 +145,7 @@ body {
     color: white;
     margin-bottom: 5rem;
     font-weight: 700;
-    font-size: clamp(0.5rem, 1.3vw, 2rem);
+    font-size: clamp(0.5rem, 1.2vw, 2rem);
     padding: 0.5rem 1.2rem 0 1.2rem;
 }
 

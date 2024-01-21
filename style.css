@@ -13,6 +13,25 @@ body {
     background-color: #F7F7F2;
     margin: 0;
     padding: 0;
+    cursor: none;
+}
+
+#cursor {
+    height: 35px;
+    width: 35px;
+    background-color: #0F0F0F;
+    border-radius: 20px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100000;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 500ms ease;
+}
+
+body:hover > #cursor {
+    opacity: 1;
 }
 
 .navLinks {

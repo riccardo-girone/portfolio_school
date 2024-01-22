@@ -4,29 +4,10 @@
     box-sizing: border-box;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
-    cursor: none;
 }
 
 *::-webkit-scrollbar {
     display: none;
-}
-
-#cursor {
-    height: 35px;
-    width: 35px;
-    background-color: white;
-    border-radius: 20px;
-    position: fixed;
-    left: 0;
-    top: 0;
-    z-index: 100000;
-    pointer-events: none;
-    opacity: 0;
-    transition: opacity 500ms ease, transform 300ms ease;
-}
-
-body:hover > #cursor {
-    opacity: 1;
 }
 
 body {
